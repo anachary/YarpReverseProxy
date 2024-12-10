@@ -1,0 +1,175 @@
+# Comprehensive .gitignore Template
+
+# Operating System Files
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.stackdump
+
+## Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Development Environments
+## Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## Visual Studio
+.vs/
+*.suo
+*.user
+*.sln.docstates
+*.sln.iml
+
+## JetBrains IDEs (IntelliJ, Rider, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+## Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Build Outputs
+## General
+build/
+dist/
+out/
+target/
+bin/
+obj/
+
+# Dependency Directories
+node_modules/
+bower_components/
+jspm_packages/
+vendor/
+_vendor/
+.vendor/
+
+# Logs and Databases
+*.log
+*.sqlite
+*.sqlite3
+logs/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment Files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Language/Framework Specific Ignores
+## Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+## Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+## .NET
+*.dll
+*.exe
+*.pdb
+*.cache
+*.suo
+*.user
+_ReSharper.*
+*.sdf
+*.opensdf
+*.ncrunch*
+project.lock.json
+project.fragment.lock.json
+
+## Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+## Rust
+debug/
+target/
+Cargo.lock
+
+## Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Backup and Temp Files
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+.temp/
+temp/
+
+# Security and Sensitive Files
+*.pem
+*.key
+*.cert
+id_rsa
+id_rsa.pub
+
+# Miscellaneous
+.cache
+.parcel-cache
+.next
+.nuxt
+.svelte-kit
+.pnpm-store/
